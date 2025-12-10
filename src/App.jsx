@@ -1,20 +1,24 @@
-import Button from "./components/Button/Button";
-import TextInput from "./components/TextInput/TextInput";
-import ImageBox from "./components/ImageBox/ImageBox";
+import Header from "./components/Header/Header";
+import BandInfo from "./components/BandInfo/BandInfo";
+import Members from "./components/Members/Members";
+import Albums from "./components/Albums/Albums";
+import Gallery from "./components/Gallery/Gallery";
+import Player from "./components/Player/Player";
+import Footer from "./components/Footer/Footer";
+
+import "./App.css";
 
 function App() {
     return (
-        <div style={{ padding: 30 }}>
-            <Button text="Touch me!" onClick={() => alert("EEEY!")} />
-
-            <br /><br />
-
-            <TextInput placeholder="Type something..." />
-
-            <br /><br />
-
-            <ImageBox src="https://somesite.com/vlads_awkward_photo" />
-        </div>
+        <>
+            <Header />
+            <BandInfo />
+            <Members />
+            <Albums />
+            <Gallery />
+            <Player />
+            <Footer />
+        </>
     );
 }
 
