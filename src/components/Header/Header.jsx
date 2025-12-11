@@ -1,9 +1,3 @@
-import "./Header.css";
-
 export default function Header() {
-    return (
-        <header className="header">
-            <h1>Skillet - comatose heroes who feel like monsters</h1>
-        </header>
-    );
+    return <h1>Ти поторопись! У нас котлетки, не з макарошками - з пюрешкой!</h1>;
 }

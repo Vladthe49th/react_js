@@ -1,9 +1,3 @@
-import "./Footer.css";
-
 export default function Footer() {
-    return (
-        <footer className="footer">
-            <p>© 2025 Skillet Fan Page</p>
-        </footer>
-    );
+    return <footer>© 2025. Рецепт зроблено з душею та чистими руками</footer>;
 }

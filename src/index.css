@@ -1,0 +1,83 @@
+/* Загальні налаштування */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: #fafafa;
+    color: #222;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 900px;
+    background: #fff;
+    padding: 35px 45px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Заголовки */
+h1, h2, h3 {
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #1a3d7c;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+/* Абзаци */
+p {
+    line-height: 1.6;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Списки */
+ul, ol {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Фото */
+img {
+    margin-top: 15px;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+/* Footer */
+footer {
+    margin-top: 35px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+}

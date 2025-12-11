@@ -1,25 +1,25 @@
-import Header from "./components/Header/Header";
-import BandInfo from "./components/BandInfo/BandInfo";
-import Members from "./components/Members/Members";
-import Albums from "./components/Albums/Albums";
-import Gallery from "./components/Gallery/Gallery";
-import Player from "./components/Player/Player";
-import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header.jsx";
+import DishTitle from "./components/DishTitle/DishTitle.jsx";
+import RecipeInfo from "./components/RecipeInfo/RecipeInfo.jsx";
+import IngredientsList from "./components/Ingredients/Ingredients.jsx";
+import StepsList from "./components/StepsList/StepsList.jsx";
+import RecipeImage from "./components/RecipeImage/RecipeImage.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
-import "./App.css";
-
-function App() {
+export default function App() {
     return (
-        <>
+        <div className="container">
             <Header />
-            <BandInfo />
-            <Members />
-            <Albums />
-            <Gallery />
-            <Player />
+            <DishTitle title="Котлєти з пюрешкой" />
+            <RecipeInfo />
+
+            <IngredientsList />
+
+            <StepsList />
+
+            <RecipeImage />
+
             <Footer />
-        </>
+        </div>
     );
 }
-
-export default App;
