@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Ноутбук Turbo X1",
+      "price": 29999,
+      "category": "laptops",
+      "description": "Потужний ноутбук для роботи та ігор",
+      "image": "https://via.placeholder.com/400x300",
+      "rating": 4.5
+    }
+
+  ],
+  "categories": [
+    { "id": 1, "name": "Ноутбуки", "slug": "laptops" },
+    { "id": 2, "name": "Смартфони", "slug": "phones" }
+  ],
+  "orders": []
+}
