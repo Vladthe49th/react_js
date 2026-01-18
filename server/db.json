@@ -2,18 +2,44 @@
   "products": [
     {
       "id": 1,
-      "title": "Ноутбук Turbo X1",
-      "price": 29999,
+      "title": "Ноутбук Mac OS",
+      "price": 54999,
       "category": "laptops",
-      "description": "Потужний ноутбук для роботи та ігор",
-      "image": "https://via.placeholder.com/400x300",
-      "rating": 4.5
+      "image": "/assets/laptop1.jpg",
+      "rating": 4.8,
+      "popular": true
+    },
+    {
+      "id": 2,
+      "title": "Смартфон Galaxy X200",
+      "price": 29999,
+      "category": "phones",
+      "image": "/assets/phone1.jpg",
+      "rating": 4.6,
+      "popular": true
+    },
+
+    {
+      "id": 2,
+      "title": "Monster violet",
+      "price": 29999,
+      "category": "drinks",
+      "image": "/assets/monster.jpg",
+      "rating": 4.6,
+      "popular": true
+    },
+
+    {
+      "id": 2,
+      "title": "Вбивця бороди",
+      "price": 29999,
+      "category": "technologia",
+      "image": "/assets/machine.jpg",
+      "rating": 4.6,
+      "popular": true
     }
 
-  ],
-  "categories": [
-    { "id": 1, "name": "Ноутбуки", "slug": "laptops" },
-    { "id": 2, "name": "Смартфони", "slug": "phones" }
-  ],
-  "orders": []
+
+  ]
+
 }
