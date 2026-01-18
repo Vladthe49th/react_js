@@ -3,8 +3,8 @@
 import React  from 'react';
 
 import { Link } from 'react-router-dom';
-import { ProductCard } from '../shared/ui/ProductCard';
-import { usePopularProducts } from '../features/products/usePopularProducts';
+import { ProductCard } from '../../shared/ui/ProductCard';
+import { usePopularProducts } from '../../features/products/usePopularProducts';
 
 export function HomePage() {
   const { data: products = [], isLoading } = usePopularProducts();
@@ -14,7 +14,7 @@ export function HomePage() {
       {/* Hero Banner */}
       <section className="relative h-96 md:h-screen max-h-screen overflow-hidden">
         <img
-          src="/assets/hero-banner.jpg" // Скачай велике фото магазину/техніки
+          src="../../assets/banner.jpg"
           alt="Turbomagazik"
           className="w-full h-full object-cover"
         />
