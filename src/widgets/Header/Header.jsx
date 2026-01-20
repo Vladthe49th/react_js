@@ -11,7 +11,7 @@ export function Header() {
             <div className="max-w-7xl mx-auto px-4 py-4">
                 <div className="flex items-center justify-between gap-8">
                     <Link to="/" className="text-2xl font-bold text-primary flex items-center gap-2">
-                        Turbomagazik 🚀
+                        Turbomagazik
                     </Link>
 
                     <div className="flex-1 max-w-2xl">

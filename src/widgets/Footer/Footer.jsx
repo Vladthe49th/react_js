@@ -7,7 +7,7 @@ export function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
                     <div>
                         <h3 className="text-xl font-bold mb-2">Turbomagazik</h3>
-                        <p className="text-gray-400">Найкращі товари за найкращими цінами 🚀</p>
+                        <p className="text-gray-400">Закидаємо вас годнотою!</p>
                     </div>
 
                     <div>
@@ -21,7 +21,7 @@ export function Footer() {
                         <h4 className="font-semibold mb-2">Контакти</h4>
                         <p className="text-gray-400">Email: info@turbomagazik.com</p>
                         <p className="text-gray-400">Тел: +380 (99) 123-45-67</p>
-                        <p className="text-gray-400 mt-4 text-xs">© 2026 Turbomagazik. Всі права захищено.</p>
+                        <p className="text-gray-400 mt-4 text-xs">© 2026 Turbomagazik. Всі права захищено трупом адміна.</p>
                     </div>
                 </div>
             </div>

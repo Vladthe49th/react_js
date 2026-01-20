@@ -41,7 +41,7 @@ export function ProductPage() {
   if (isError || !product) {
     return (
       <div className="text-center text-3xl py-20">
-        Товар не знайдено 😢<br />
+        Товар не знайдено!<br />
         <a href="/catalog" className="text-primary underline text-xl mt-8 block">Повернутися до каталогу</a>
       </div>
     );
@@ -68,7 +68,7 @@ export function ProductPage() {
           </div>
 
           <p className="text-lg text-gray-700 mb-8">
-            {product.description || 'Опис з чорним гумором скоро з\'явиться 😈'}
+            {product.description || 'Опис скоро з\'явиться !'}
           </p>
 
           <div className="flex gap-4 mb-12">
@@ -90,7 +90,7 @@ export function ProductPage() {
           {/* Заглушка відгуків */}
           <div>
             <h2 className="text-2xl font-bold mb-4">Відгуки</h2>
-            <p className="text-gray-600">Відгуки скоро з'являться. А поки — купуй на свій страх і ризик 😈</p>
+            <p className="text-gray-600">Відгуки скоро з'являться. А поки — купуй на свій страх і ризик...</p>
           </div>
         </div>
       </div>
