@@ -1,45 +1,79 @@
 {
+  "categories": [
+    { "id": 1, "name": "Ноутбуки", "slug": "laptops" },
+    { "id": 2, "name": "Смартфони", "slug": "phones" },
+    { "id": 3, "name": "Продукти", "slug": "food" },
+    { "id": 4, "name": "Одяг", "slug": "clothes" },
+    { "id": 5, "name": "Ігри", "slug": "games" },
+    { "id": 6, "name": "Інше", "slug": "other" }
+  ],
   "products": [
     {
       "id": 1,
       "title": "Ноутбук Mac OS",
-      "price": 54999,
+      "price": 7999,
       "category": "laptops",
       "image": "/assets/laptop1.jpg",
-      "rating": 4.8,
-      "popular": true
+      "rating": 4.9,
+      "description": "Ідеальний для тих, хто хоче виглядати круто, поки Windows-юзери страждають від оновлень. Батарея на тиждень, але зарядка окремо!"
     },
     {
       "id": 2,
       "title": "Смартфон Galaxy X200",
-      "price": 29999,
+      "price": 14999,
       "category": "phones",
       "image": "/assets/phone1.jpg",
-      "rating": 4.6,
-      "popular": true
+      "rating": 4.7
     },
-
     {
-      "id": 2,
-      "title": "Monster violet",
-      "price": 29999,
-      "category": "drinks",
-      "image": "/assets/monster.jpg",
-      "rating": 4.6,
-      "popular": true
+      "id": 3,
+      "title": "Газировка Coca Cola",
+      "price": 29,
+      "category": "food",
+      "image": "/assets/coke1.jpg",
+      "rating": 4.5,
+      "description": "Класика, від якої зуби тануть, а настрій піднімається."
     },
-
     {
-      "id": 2,
-      "title": "Вбивця бороди",
-      "price": 29999,
-      "category": "technologia",
-      "image": "/assets/machine.jpg",
-      "rating": 4.6,
-      "popular": true
+      "id": 4,
+      "title": "Вбивця Бороди",
+      "price": 499,
+      "category": "other",
+      "image": "/assets/shaver1.jpg",
+      "rating": 4.8
+    },
+    {
+      "id": 5,
+      "title": "Собача іграшка",
+      "price": 199,
+      "category": "other",
+      "image": "/assets/dogtoy1.jpg",
+      "rating": 5.0
+    },
+    {
+      "id": 6,
+      "title": "Джинси Adidas",
+      "price": 899,
+      "category": "clothes",
+      "image": "/assets/jeans1.jpg",
+      "rating": 4.6
+    },
+    {
+      "id": 7,
+      "title": "Макарони Barilla",
+      "price": 59,
+      "category": "food",
+      "image": "/assets/pasta1.jpg",
+      "rating": 4.4
+    },
+    {
+      "id": 8,
+      "title": "S.T.A.L.K.E.R. 2 (PS5)",
+      "price": 799,
+      "category": "games",
+      "image": "/assets/stalker2.jpg",
+      "rating": 4.9,
+      "description": "Для тих, хто тримає в своєму серці моноліт"
     }
-
-
   ]
-
 }

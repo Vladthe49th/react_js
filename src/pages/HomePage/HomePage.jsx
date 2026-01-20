@@ -14,7 +14,7 @@ export function HomePage() {
       {/* Hero Banner */}
       <section className="relative h-96 md:h-screen max-h-screen overflow-hidden">
         <img
-          src="../../assets/banner.jpg"
+          src="../../../public/assets/banner.jpg"
           alt="Turbomagazik"
           className="w-full h-full object-cover"
         />
@@ -22,10 +22,16 @@ export function HomePage() {
         <div className="absolute inset-0 flex items-center">
           <div className="max-w-7xl mx-auto px-4 w-full">
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-              Turbomagazik 🚀
+              Turbomagazik
             </h1>
             <p className="text-xl md:text-3xl text-white mb-8 max-w-2xl">
-              Найкращі гаджети за цінами, від яких конкуренти плачуть
+              Собачці на фоні не давали свободи
+              вибору, та заставляли переплачувати
+              за товари поганої якості...
+              Але потім вона попала до нас -
+              і ії світ відзеркалився!
+
+
             </p>
             <Link
               to="/catalog"
@@ -45,22 +51,22 @@ export function HomePage() {
             <div className="text-center">
               <div className="text-6xl mb-4">🔥</div>
               <h3 className="text-xl font-semibold mb-2">Гарячі ціни</h3>
-              <p className="text-gray-600">Настільки низькі, що конкуренти дзвонять і благають підняти</p>
+              <p className="text-gray-600">Настільки вигідні, що всі конкуренти просто здаються, та ридають в подушку</p>
             </div>
             <div className="text-center">
               <div className="text-6xl mb-4">🚀</div>
               <h3 className="text-xl font-semibold mb-2">Швидка доставка</h3>
-              <p className="text-gray-600">Швидше, ніж ти встигнеш пошкодувати про покупку</p>
+              <p className="text-gray-600">Швидше, ніж ти встигнеш пошкодувати про те, що замовив</p>
             </div>
             <div className="text-center">
               <div className="text-6xl mb-4">✅</div>
               <h3 className="text-xl font-semibold mb-2">Гарантія</h3>
-              <p className="text-gray-600">Якщо зламається — ми повернемо гроші. Або ні. Але спробуємо 😈</p>
+              <p className="text-gray-600">Якщо зламається — ми будемо упорно намагатися повернути вам гроші </p>
             </div>
             <div className="text-center">
               <div className="text-6xl mb-4">🛒</div>
               <h3 className="text-xl font-semibold mb-2">Великий вибір</h3>
-              <p className="text-gray-600">Все, що потрібно сучасній людині. І трохи більше зайвого</p>
+              <p className="text-gray-600">Все, що потрібно сучасним людям, та тваринам!</p>
             </div>
           </div>
         </div>
