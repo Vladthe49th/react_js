@@ -5,6 +5,7 @@ import React  from 'react';
 import { Link } from 'react-router-dom';
 import { ProductCard } from '../../shared/ui/ProductCard';
 import { usePopularProducts } from '../../features/products/usePopularProducts';
+import { RandomDogPic } from '../../widgets/RandomDogPic/RandomDogPic.jsx';
 
 export function HomePage() {
   const { data: products = [], isLoading } = usePopularProducts();
@@ -95,6 +96,13 @@ export function HomePage() {
           </div>
         </div>
       </section>
+
+      <section className="py-16 bg-gray-100">
+        <div className="max-w-7xl mx-auto px-4">
+          <RandomDogPic />
+        </div>
+      </section>
+
     </>
   );
 }
